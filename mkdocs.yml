@@ -1,0 +1,61 @@
+site_name: Kho Đề Kiểm Tra Toán
+site_description: Hệ thống kho đề thi trắc nghiệm Toán chuẩn và video giải chi tiết.
+
+theme:
+  name: material
+  language: vi
+  
+  # Cấu hình màu sắc và chế độ Sáng/Tối
+  palette:
+    # Chế độ giao diện Sáng
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Chuyển sang giao diện tối
+        
+    # Chế độ giao diện Tối
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Chuyển sang giao diện sáng
+
+  # Cấu hình phông chữ
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  # Các tính năng nâng cao cho trải nghiệm người dùng
+  features:
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+
+# Cấu hình Logo nhận diện thương hiệu
+logo: images/logo.jpg
+favicon: images/logo.jpg
+
+# Cấu trúc Menu Cây thư mục bài test
+nav:
+  - Trang chủ: index.md
+  - Khối 12 (GDPT 2018):
+    - Chương 1. Khảo sát hàm số:
+      - Bài 1. Tính đơn điệu, cực trị: khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-1-tinh-don-dieu-cuc-tri.md
+      - Bài 2. GTLN, GTNN của hàm số: khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-2-gtln-gtnn.md
+      - Bài 3. Đường tiệm cận: khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-3-duong-tiem-can.md
+      - Bài 4. Khảo sát sự biến thiên và vẽ đồ thị của hàm số: khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-4-khao-sat-ve-do-thi.md
+      - Bài 5. Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn: khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-5-ung-dung-khao-sat.md
+
+# Cấu hình hiển thị Công thức Toán học sắc nét (MathJax)
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
