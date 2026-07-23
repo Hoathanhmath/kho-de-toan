@@ -7,12 +7,13 @@
 ## 📋 KHU VỰC LUYỆN TẬP VÀ KIỂM TRA
 
 **Nội quy phòng thi:**
+
 1. **Thời gian làm bài:** 45 phút (Đồng hồ đếm ngược sẽ chạy ngay khi mở đề).
 2. **Quy định:** Tự giác làm bài, chuẩn bị sẵn giấy nháp và máy tính.
 3. **Chấm điểm:** Hệ thống tự động khóa bài khi hết giờ và hiển thị đáp án chi tiết (viền xanh) ngay sau khi nộp.
 
 ### 🚀 Danh sách đề kiểm tra
-*Học sinh bấm vào các nút dưới đây để mở đề thi sang cửa sổ mới:*
+*Học sinh bấm vào các nút dưới đây để bắt đầu thi:*
 
 <div style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
   
