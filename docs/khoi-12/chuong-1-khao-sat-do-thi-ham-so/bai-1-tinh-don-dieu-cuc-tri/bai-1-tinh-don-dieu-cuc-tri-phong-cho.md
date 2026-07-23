@@ -18,7 +18,7 @@
 <div style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
   
   <!-- Nút mở Đề 1 -->
-  <a href="bai-1-de-1.html" target="_blank" class="md-button md-button--primary" style="background-color: #059669; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold;">
+  <a href="kho-de-toan/docs/khoi-12/chuong-1-khao-sat-do-thi-ham-so/bai-1-tinh-don-dieu-cuc-tri/bai-1-de-1.html" target="_blank" class="md-button md-button--primary" style="background-color: #059669; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold;">
     📝 Đề 01: Mức độ Cơ bản - Vận dụng
   </a>
 
